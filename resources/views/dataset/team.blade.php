@@ -196,7 +196,7 @@
                             <div class="header-logo">
                                 <div class="logo">
                                     <a href="index.html">
-                                    <img src="https://www.pce-th.com/images/pce.png" alt="logo" while="35px" height="35px"><span style="color: #FCB040; font-size: 20px;"> Pce-th</span>
+                                        <img src="https://www.pce-th.com/images/pce.png" alt="logo" while="35px" height="35px"><span style="color: #FCB040; font-size: 20px;"> Pce-th</span>
                                     </a>
                                 </div>
                             </div>
@@ -602,25 +602,6 @@
                             <div class="row mb-minus-30">
                                 <div class="text-center">
                                     <div class="media">
-                                        <img class="img2" src="assets/user/007.jpg" class="img-fluid" alt="" width="200" height="200" onclick="showFullSize(this)" type="button">
-                                    </div>
-                                    <div class="text d-flex align-items-center justify-content-center">
-                                        <div class="left">
-                                            <h7 class="title color-dark"><b>นางสาวศศลักษณ์ มะลิทิพย์</b></h7>
-                                            <span class="position color-dark font-la fw-500">
-                                                <p>พนักงาน IT Infrastructure</p>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md">
-                        <div class="container">
-                            <div class="row mb-minus-30">
-                                <div class="text-center">
-                                    <div class="media">
                                         <img class="img2" src="assets/user/008.jpg" class="img-fluid" alt="" width="200" height="200" onclick="showFullSize(this)" type="button">
                                     </div>
                                     <div class="text d-flex align-items-center justify-content-center">
@@ -797,6 +778,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md">
+
+                        </div>
+                        <div class="col-md-4">
                             <div class="container">
                                 <div class="row mb-minus-30">
                                     <div class="text-center">
@@ -815,7 +799,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md">
+                        <div class="col-md-4">
                             <div class="container">
                                 <div class="row mb-minus-30">
                                     <div class="text-center">
@@ -835,25 +819,11 @@
                             </div>
                         </div>
                         <div class="col-md">
-                            <div class="container">
-                                <div class="row mb-minus-30">
-                                    <div class="text-center">
-                                        <div class="media">
-                                            <img class="img2" src="assets/user/007.jpg" class="img-fluid" alt="" width="200" height="200" onclick="showFullSize(this)" type="button">
-                                        </div>
-                                        <div class="text d-flex align-items-center justify-content-center">
-                                            <div class="left">
-                                                <h7 class="title color-dark"><b>นางสาวศศลักษณ์ มะลิทิพย์</b></h7>
-                                                <span class="position color-dark font-la fw-500">
-                                                    <p>พนักงาน IT Infrastructure</p>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
+
                     </div>
+                </div>
                 </div>
             </section>
 
@@ -885,6 +855,7 @@
                         <div class="col-md">
 
                         </div>
+
                         <div class="col-md-4">
                             <div class="container">
                                 <div class="row mb-minus-30">
@@ -1099,7 +1070,7 @@
 
                         <div class="col-lg-6">
                             <div class="single-footer-wid newsletter_widget">
-                                <h6 class="title d-flex align-items-center color-white mb-30"><img src="assets/img/icon/notification.svg" alt="">  keep up to date - get updates with latest topics.</h6>
+                                <h6 class="title d-flex align-items-center color-white mb-30"><img src="assets/img/icon/notification.svg" alt=""> keep up to date - get updates with latest topics.</h6>
 
                                 <div class="newsletter_box">
                                     <form action="mail.php" method="POST">
@@ -1264,16 +1235,15 @@
 
 <script>
     function showFullSize(image) {
-            // Get the image source URL
-            var imageUrl = image.src;
+        // Get the image source URL
+        var imageUrl = image.src;
 
-            // Use SweetAlert2 to display the full-size image
-            Swal.fire({
-                imageUrl: imageUrl,
-                imageAlt: 'Full-size Image',
-                showCloseButton: true,
-                showConfirmButton: false
-            });
-        }
-
+        // Use SweetAlert2 to display the full-size image
+        Swal.fire({
+            imageUrl: imageUrl,
+            imageAlt: 'Full-size Image',
+            showCloseButton: true,
+            showConfirmButton: false
+        });
+    }
 </script>
