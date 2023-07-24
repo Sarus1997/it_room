@@ -196,7 +196,7 @@
                             <div class="header-logo">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="assets/img/logo/logo.png" alt="logo">
+                                    <img src="https://www.pce-th.com/images/pce.png" alt="logo" while="35px" height="35px">
                                     </a>
                                 </div>
                             </div>

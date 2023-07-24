@@ -20,5 +20,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/team',[dataset::class,'index']);
+Route::get('/team', [Dataset::class, 'team']);
+Route::get('/project', [Dataset::class, 'project']);
+Route::get('/project2', [Dataset::class, 'project2']);
 

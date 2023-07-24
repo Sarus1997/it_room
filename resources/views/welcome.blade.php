@@ -157,7 +157,7 @@
             <a href="/team">
                 <button class="glow-on-hover btn btn-outline-dark" type="button" style="position: absolute; top: 20%; left: 80%; transform: translate(-50%, -50%);  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);">Organize Chart</button>
             </a>
-            <a href="/">
+            <a href="/project">
                 <button class="glow-on-hover" type="button" style="position: absolute; top: 25%; left: 80%; transform: translate(-50%, -50%); box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);">Project on Hand</button>
             </a>
         </div>
