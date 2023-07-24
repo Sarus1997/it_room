@@ -197,6 +197,7 @@
                                 <div class="logo">
                                     <a href="index.html">
                                         <img src="https://www.pce-th.com/images/pce.png" alt="logo" while="35px" height="35px">
+                                        <span style="color: #FCB040; font-size: 20px;"> Pce-th</span>
                                     </a>
                                 </div>
                             </div>
@@ -398,15 +399,15 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="page-banner__content mb-xs-10 mb-sm-15 mb-md-15 mb-20">
-                        <div class="transparent-text">Our Team</div>
+                        <div class="transparent-text">IT Team</div>
                         <div class="page-title">
-                            <h1>Company Team <span>Member</span></h1>
+                            <h1>IT Team <span><br>IT Job Tracking</span></h1>
                         </div>
                     </div>
 
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="/">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Our Team</li>
                         </ol>
                     </nav>
@@ -415,7 +416,7 @@
                 <div class="col-md-6">
                     <div class="page-banner__media mt-xs-30 mt-sm-40">
                         <img src="assets/img/page-banner/page-banner-start.svg" class="img-fluid start" alt="">
-                        <img src="assets/img/page-banner/page-banner.jpg" class="img-fluid" alt="">
+                        <img src="https://pce-th.imgix.net/bg_new_home_e85146a685/bg_new_home_e85146a685.jpg" class="img-fluid" alt="" style="width: 945px; height: 450px; object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -435,30 +436,30 @@
 
         <div class="container" style="text-align: center;">
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
 
-                </div>
-                <div class="col-md">
-                <h3>การสรุปและติดตามงานแผนกไอที</h3>
-                <hr style="height: 0.5px; background: teal; margin: 20px 0; box-shadow: 0px 0px 4px 2px rgba(204,204,204,1);">
-                </div>
-                <div class="col-md-3">
+                    </div>
+                    <div class="col-md">
+                        <h3>การสรุปและติดตามงานแผนกไอที</h3>
+                        <hr style="height: 0.5px; background: teal; margin: 20px 0; box-shadow: 0px 0px 4px 2px rgba(204,204,204,1);">
+                    </div>
+                    <div class="col-md-3">
 
+                    </div>
                 </div>
             </div>
+
+            <a href="/project" type="button" class="btn btn-outline-success">สรุปแดชบอร์ด(โปรเจคไอที)</a>
+            <a href="/project2" type="button" class="btn btn-outline-primary">การติดตามงานทางด้านไอที</a>
+
+
+        </div><br>
+
+        <div class="container-fluid">
+            <iframe src="https://view.monday.com/embed/4164184865-4dcb4b89b0733c60b83f9e6566b4194a?r=use1" width=100% height=1000 style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
         </div>
-
-        <a href="/project" type="button" class="btn btn-outline-success">สรุปแดชบอร์ด(โปรเจคไอที)</a>
-        <a href="/project2" type="button" class="btn btn-outline-primary">การติดตามงานทางด้านไอที</a>
-
-
-    </div><br>
-
-    <div class="container-fluid">
-        <iframe src="https://view.monday.com/embed/4164184865-4dcb4b89b0733c60b83f9e6566b4194a?r=use1" width=100% height=1000 style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
-    </div>
 
     </section>
 

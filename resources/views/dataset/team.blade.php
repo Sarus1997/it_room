@@ -196,7 +196,7 @@
                             <div class="header-logo">
                                 <div class="logo">
                                     <a href="index.html">
-                                    <img src="https://www.pce-th.com/images/pce.png" alt="logo" while="35px" height="35px">
+                                    <img src="https://www.pce-th.com/images/pce.png" alt="logo" while="35px" height="35px"><span style="color: #FCB040; font-size: 20px;"> Pce-th</span>
                                     </a>
                                 </div>
                             </div>
@@ -398,16 +398,16 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="page-banner__content mb-xs-10 mb-sm-15 mb-md-15 mb-20">
-                        <div class="transparent-text">Our Team</div>
+                        <div class="transparent-text">IT Team</div>
                         <div class="page-title">
-                            <h1>Company Team <span>Member</span></h1>
+                            <h1>IT Team <span><br>Member</span></h1>
                         </div>
                     </div>
 
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Our Team</li>
+                            <li class="breadcrumb-item"><a href="/">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><a href="/project" style="color: blue;">Dashboad & IT Job Tracking</a></li>
                         </ol>
                     </nav>
                 </div>
@@ -415,7 +415,7 @@
                 <div class="col-md-6">
                     <div class="page-banner__media mt-xs-30 mt-sm-40">
                         <img src="assets/img/page-banner/page-banner-start.svg" class="img-fluid start" alt="">
-                        <img src="assets/img/page-banner/page-banner.jpg" class="img-fluid" alt="">
+                        <img src="https://pce-th.imgix.net/bg_new_home_e85146a685/bg_new_home_e85146a685.jpg" class="img-fluid" alt="" style="width: 945px; height: 450px; object-fit: cover;">
                     </div>
                 </div>
             </div>

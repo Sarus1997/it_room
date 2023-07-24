@@ -137,7 +137,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand d-flex align-items-center" href="https://www.pce-th.com/">
                     <img src="https://www.pce-th.com/images/pce.png" alt="pce" height="25" width="35" style="margin-right: 10px;">
-                    <span style="color: #FCB040; font-size: 15px;"> Pce-th</span>
+                    <span style="color: #FCB040; font-size: 20px;"> Pce-th</span>
                 </a>
             </div>
         </nav>
