@@ -98,6 +98,18 @@
             background-position: 200% center;
         }
     }
+
+    /* Style for the clock icon */
+    .fal.fa-clock {
+        color: blue;
+        /* Replace 'blue' with your desired color */
+    }
+
+    /* Style for the email icon */
+    .icon-email {
+        color: red;
+        /* Replace 'red' with your desired color */
+    }
 </style>
 
 <body class="body-wrapper">
@@ -158,19 +170,24 @@
 
     <!-- header end -->
     <header class="header header-1">
-        <div class="top-header d-none d-md-block">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-8">
-                        <div class="header-cta">
-                            <ul>
-                                <li><a><i class="fal fa-clock"></i> Mon – Fri: 8.00 – 18.00</a></li>
-                                <li><a href="mailto:consulter@example.com"><i class="icon-email"></i>consulter@example.com</a></li>
-                            </ul>
+        <header class="header header-1">
+            <div class="top-header d-none d-md-block">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <div class="header-cta">
+                                <ul>
+                                    <li><a><i class="fal fa-clock"></i>
+                                            <font color="#000">จันทร์ – เสาร์: 8.00 – 17.00</font>
+                                        </a></li>
+                                    <li><a href="contact@pce-th.com"><i class="icon-email"></i>
+                                            <font color="#000">contact@pce-th.com</font>
+                                        </a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-4">
+                        <!-- <div class="col-4">
                         <div class="header-right-socail d-flex justify-content-end align-items-center">
                             <h6 class="font-la color-white fw-600">Follow On:</h6>
 
@@ -183,26 +200,26 @@
                                 </ul>
                             </div>
                         </div>
+                    </div> -->
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="main-header-wraper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="d-flex align-items-center justify-content-between">
-                            <div class="header-logo">
-                                <div class="logo">
-                                    <a href="index.html">
-                                        <img src="https://www.pce-th.com/images/pce.png" alt="logo" while="35px" height="35px">
-                                        <span style="color: #FCB040; font-size: 20px;"> Pce-th</span>
-                                    </a>
+            <div class="main-header-wraper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="header-logo">
+                                    <div class="logo">
+                                        <a href="index.html">
+                                            <img src="https://www.pce-th.com/images/pce.png" alt="logo" while="35px" height="35px">
+                                            <span style="color: #FCB040; font-size: 20px;"> Pce-th</span>
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <!-- <div class="header-menu d-none d-xl-block">
+                                <!-- <div class="header-menu d-none d-xl-block">
                                 <div class="main-menu">
                                     <ul>
                                         <li>
@@ -253,37 +270,38 @@
                                 </div>
                             </div> -->
 
-                            <div class="header-right d-flex align-items-center">
-                                <div class="header-search">
-                                    <a class="search-toggle" data-selector=".header-search">
-                                        <span class="fas fa-search"></span>
+                                <div class="header-right d-flex align-items-center">
+                                    <div class="header-search">
+                                        <!-- <a class="search-toggle" data-selector=".header-search">
+                                            <span class="fas fa-search"></span>
+                                        </a>
+
+                                        <form class="search-box" action="#" method="get">
+                                            <div class="form-group d-flex align-items-center">
+                                                <input type="search" name="s" value="" class="search-input" id="search" placeholder="Search">
+                                                <button type="submit" class="search-submit"><i class="fas fa-search"></i></button>
+                                            </div>
+                                        </form> -->
+                                    </div>
+
+                                    <div class="horizontal-bar d-none d-md-block"></div>
+
+                                    <a href="tel:+1235568824" class="header-contact d-none d-md-flex align-items-center">
+                                        <div class="icon color-primary">
+                                            <i class="icon-call"></i>
+                                            <!-- <img src="assets/img/icon/phone-1.svg" alt=""> -->
+                                        </div>
+                                        <div class="text">
+                                            <span class="font-la mb-5 d-block fw-500">ติดต่อฝ่ายสนับสนุน</span>
+                                            <h5 class="fw-500">077947300</h5>
+                                        </div>
                                     </a>
 
-                                    <form class="search-box" action="#" method="get">
-                                        <div class="form-group d-flex align-items-center">
-                                            <input type="search" name="s" value="" class="search-input" id="search" placeholder="Search">
-                                            <button type="submit" class="search-submit"><i class="fas fa-search"></i></button>
-                                        </div>
-                                    </form>
-                                </div>
-
-                                <div class="horizontal-bar d-none d-md-block"></div>
-
-                                <a href="tel:+1235568824" class="header-contact d-none d-md-flex align-items-center">
-                                    <div class="icon color-primary">
-                                        <i class="icon-call"></i>
-                                        <!-- <img src="assets/img/icon/phone-1.svg" alt=""> -->
-                                    </div>
-                                    <div class="text">
-                                        <span class="font-la mb-5 d-block fw-500">Contact For Support</span>
-                                        <h5 class="fw-500">+123 556 8824</h5>
-                                    </div>
-                                </a>
-
-                                <div class="mobile-nav-bar d-block ml-3 ml-sm-5 d-xl-none">
-                                    <div class="mobile-nav-wrap">
-                                        <div id="hamburger">
-                                            <i class="fal fa-bars"></i>
+                                    <div class="mobile-nav-bar d-block ml-3 ml-sm-5 d-xl-none">
+                                        <div class="mobile-nav-wrap">
+                                            <div id="hamburger">
+                                                <i class="fal fa-bars"></i>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -292,6 +310,102 @@
                     </div>
                 </div>
             </div>
+        </header>
+
+        <!-- mobile menu - responsive menu  -->
+        <div class="mobile-nav">
+            <button type="button" class="close-nav">
+                <i class="fal fa-times-circle"></i>
+            </button>
+
+            <nav class="sidebar-nav">
+                <div class="navigation">
+                    <div class="consulter-mobile-nav">
+                        <!-- <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                                <ul>
+                                    <li><a href="index.html">home 1</a></li>
+                                    <li><a href="index-2.html">home 2</a></li>
+                                    <li><a href="index-3.html">home 3</a></li>
+                                    <li><a href="index-4.html">home 4</a></li>
+                                    <li><a href="index-5.html">home 5</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="services.html">Our Services</a>
+
+                                <ul>
+                                    <li><a href="services.html">Our Services 1</a></li>
+                                    <li><a href="services-2.html">Our Services 2</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a>Pages</a>
+
+                                <ul>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="table.html">Pricing Table</a></li>
+                                    <li><a href="team.html">Team</a></li>
+                                    <li><a href="team-details.html">Team Details</a></li>
+                                    <li><a href="services-details.html">Services Details</a></li>
+                                    <li><a href="our-project-details.html">Our Project Details</a></li>
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="404.html">404</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="our-project.html">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">Blog</a>
+
+                                <ul>
+                                    <li><a href="blog.html">Blog 1</a></li>
+                                    <li><a href="blog-standard.html">Blog 2</a></li>
+                                </ul>
+                            </li>
+                        </ul> -->
+                    </div>
+
+                    <div class="sidebar-nav__bottom mt-20">
+                        <div class="sidebar-nav__bottom-contact-infos mb-20">
+                            <h6 class="color-black mb-5">Contact Info</h6>
+
+                            <ul>
+                                <li><a><i class="fal fa-clock"></i>
+                                        <font color="#000">จันทร์ – เสาร์: 8.00 – 17.00</font>
+                                    </a></li>
+                                <li><a href="contact@pce-th.com"><i class="icon-email"></i>contact@pce-th.com</a></li>
+                                <li>
+                                    <a class="header-contact d-flex align-items-center">
+                                        <div class="icon">
+                                            <i class="icon-call"></i>
+                                            <!-- <img src="assets/img/icon/phone-1.svg" alt=""> -->
+                                        </div>
+                                        <div class="text">
+                                            <span class="font-la mb-5 d-block fw-500">ติดต่อฝ่ายสนับสนุน</span>
+                                            <h5 class="fw-500">0779473004</h5>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar-nav__bottom-social">
+                            <h6 class="color-black mb-5">Follow On:</h6>
+
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
     </header>
 
@@ -304,7 +418,7 @@
         <nav class="sidebar-nav">
             <div class="navigation">
                 <div class="consulter-mobile-nav">
-                    <ul>
+                    <!-- <ul>
                         <li>
                             <a href="index.html">Home</a>
                             <ul>
@@ -349,7 +463,7 @@
                                 <li><a href="blog-standard.html">Blog 2</a></li>
                             </ul>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
 
                 <div class="sidebar-nav__bottom mt-20">
@@ -366,8 +480,8 @@
                                         <!-- <img src="assets/img/icon/phone-1.svg" alt=""> -->
                                     </div>
                                     <div class="text">
-                                        <span class="font-la mb-5 d-block fw-500">Contact For Support</span>
-                                        <h5 class="fw-500">+123 556 8824</h5>
+                                        <span class="font-la mb-5 d-block fw-500">ติดต่อฝ่ายสนับสนุนt</span>
+                                        <h5 class="fw-500">077947300</h5>
                                     </div>
                                 </a>
                             </li>
@@ -407,8 +521,8 @@
 
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="/">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Our Team</li>
+                            <li class="breadcrumb-item"><a href="/project">ย้อนกลับ</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">การติดตามงานด้านไอที</li>
                         </ol>
                     </nav>
                 </div>
@@ -485,42 +599,11 @@
 
     <!-- footer start -->
     <footer class="footer-1 overflow-hidden">
-        <div class="footer-top mb-xs-5 mb-sm-10 mb-md-15 mb-lg-20 mb-25 overflow-hidden">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="single-footer-wid site_info_box">
-                            <a href="index.html" class="d-block mb-20">
-                                <img src="assets/img/logo/footer-logo.png" alt="">
-                            </a>
-
-                            <div class="description font-la color-white">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="single-footer-wid newsletter_widget">
-                            <h6 class="title d-flex align-items-center color-white mb-30"><img src="assets/img/icon/notification.svg" alt=""> keep up to date - get updates with latest topics.</h6>
-
-                            <div class="newsletter_box">
-                                <form action="mail.php" method="POST">
-                                    <input type="email" name="email" placeholder="Enter your email address" required>
-                                    <button class="theme-btn" type="submit">Subscribe Now <i class="fab fa-telegram-plane"></i></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-md-6 col-xl-3">
+                <div class="col-md">
                     <div class="single-footer-wid contact_widget">
-                        <h4 class="wid-title mb-30 color-white">Working Time</h4>
+                        <h4 class="wid-title mb-30 color-white">เวลาทำการ</h4>
 
                         <div class="contact-wrapper pt-30 pr-30 pb-30 pl-30">
                             <div class="wid-contact pb-30 mb-25">
@@ -531,7 +614,7 @@
                                         </div>
 
                                         <div class="contact-info font-la color-white">
-                                            <p>Mon - Sat / 08am : 12pm</p>
+                                            <p>จันทร์ - เสาร์ / 09.00 : 17.00</p>
                                         </div>
                                     </li>
 
@@ -541,84 +624,89 @@
                                         </div>
 
                                         <div class="contact-info font-la color-white">
-                                            <p>Mon - Sat / 08am : 12pm</p>
+                                            <p>หยุดวันอาทิตย์</p>
                                         </div>
                                     </li>
-
-                                    <li>
-                                        <div class="icon">
-                                            <i class="far fa-clock"></i>
-                                        </div>
-
-                                        <div class="contact-info font-la color-white">
-                                            <p>Sunday Close</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="social-profile">
-                                <ul>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div> <!-- /.col-lg-3 - single-footer-wid -->
 
-                <div class="col-md-6 col-xl-2">
-                    <div class="single-footer-wid pl-xl-10 pl-50">
-                        <h4 class="wid-title mb-30 color-white">Quick Link</h4>
+                <!-- /.col-lg-2 - single-footer-wid -->
 
-                        <ul>
-                            <li><a href="about.html">About Company</a></li>
-                            <li><a href="services.html">Our Services</a></li>
-                            <li><a href="services-2.html">Investor Presentation</a></li>
-                            <li><a href="table.html">Investor Career</a></li>
-                            <li><a href="team.html">Meet Our Team</a></li>
-                            <li><a href="contact.html">Support</a></li>
-                        </ul>
-                    </div>
-                </div> <!-- /.col-lg-2 - single-footer-wid -->
+                <div class="col-md">
+                    <div class="single-footer-wid contact_widget">
+                        <h4 class="wid-title mb-30 color-white">ติดต่อเรา</h4>
 
-                <div class="col-md-6 col-xl-4">
-                    <div class="single-footer-wid recent_post_widget pl-xl-10 pl-65 pr-50 pr-xl-30">
-                        <h4 class="wid-title mb-30 color-white">Resent Post</h4>
+                        <div class="contact-wrapper pt-30 pr-30 pb-30 pl-30">
+                            <div class="wid-contact pb-30 mb-25">
+                                <ul>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="far fa-clock"></i>
+                                        </div>
 
-                        <div class="recent-post-list">
-                            <a href="blog-details.html" class="single-recent-post mb-20 pb-20 d-flex align-items-center">
-                                <div class="thumb">
-                                    <img src="assets/img/footer/resent-post-1.jpg" alt="">
-                                </div>
+                                        <div class="contact-info font-la color-white">
+                                            <p>บริษัท เพชรศรีวิชัย เอ็นเตอร์ไพรส์ จำกัด (มหาชน)</p>
+                                        </div>
+                                    </li>
 
-                                <div class="post-data">
-                                    <h5 class="color-white mb-10 fw-600">Why Purpose-Driven Employers Succeed</h5>
-                                    <span class="color-white d-flex ailign-items-center"><i class="far fa-clock"></i>January 11, 2018</span>
-                                </div>
-                            </a>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="far fa-clock"></i>
+                                        </div>
 
-                            <a href="blog-details.html" class="single-recent-post mb-20 pb-20 d-flex align-items-center">
-                                <div class="thumb">
-                                    <img src="assets/img/footer/resent-post-1.jpg" alt="">
-                                </div>
+                                        <div class="contact-info font-la color-white">
+                                            <p>99/12-19 หมู่ 4 ถ.กาญจนวิถี ต.บางกุ้ง อ.เมือง จ.สุราษฎร์ธานี 84000</p>
+                                        </div>
+                                    </li>
 
-                                <div class="post-data">
-                                    <h5 class="color-white mb-10 fw-600">Saving Time Achieving Success in Business</h5>
-                                    <span class="color-white d-flex ailign-items-center"><i class="far fa-clock"></i>november 12, 2019</span>
-                                </div>
-                            </a>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="far fa-clock"></i>
+                                        </div>
+
+                                        <div class="contact-info font-la color-white">
+                                            <p>โทร : 077947300</p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="icon">
+                                            <i class="far fa-clock"></i>
+                                        </div>
+
+                                        <div class="contact-info font-la color-white">
+                                            <p>อีเมล : contact@pce-th.com</p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="icon">
+                                            <i class="far fa-clock"></i>
+                                        </div>
+
+                                        <div class="contact-info font-la color-white">
+                                            <p>แฟกซ์ : 077600247</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="social-profile">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div> <!-- /.col-lg-4 - single-footer-wid -->
 
-                <div class="col-md-6 col-xl-3">
+                <div class="col-md">
                     <div class="single-footer-wid">
-                        <h4 class="wid-title mb-30 color-white">Office Location</h4>
-
-                        <div id="map"></div>
+                        <h4 class="wid-title mb-30 color-white">ที่อยู่บริษัท</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15756.333542746186!2d99.37733574778679!3d9.146941690049939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x305408aff1d0af43%3A0xe1df03abec6e1a2e!2z4Lia4Lij4Li04Lip4Lix4LiXIOC5gOC4nuC4iuC4o-C4qOC4o-C4teC4p-C4tOC4iuC4seC4oiDguYDguK3guYfguJnguYDguJXguK3guKPguYzguYTguJ7guKPguKrguYwg4LiI4Liz4LiB4Lix4LiU!5e0!3m2!1sth!2sth!4v1690336389272!5m2!1sth!2sth" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div> <!-- /.col-lg-3 - single-footer-wid -->
             </div>
@@ -627,15 +715,12 @@
         <div class="footer-bottom overflow-hidden">
             <div class="container">
                 <div class="footer-bottom-content d-flex flex-column flex-md-row justify-content-between align-items-center">
-                    <div class="coppyright text-center text-md-start">
-                        &copy; 2022 <a href="index.html">Consulter</a> | All Rights Reserved by <a href="https://themeforest.net/user/rrdevs">RRDevs</a>
-                    </div>
+                    <div class="container" style=" text-align: center;">
+                        <a href="index.html">
+                            <img src="https://www.pce-th.com/images/pce.png" alt="logo" while="45px" height="45px">
+                        </a>
 
-                    <div class="footer-bottom-list last_no_bullet">
-                        <ul>
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                        </ul>
+                        <p style="color: #fff;"><br>ฝ่ายพัฒนาเทคโนโลยี บริษัท เพชรศรีวิชัย เอ็นเตอร์ไพรส์ จำกัด (มหาชน)</p>
                     </div>
                 </div>
             </div>
